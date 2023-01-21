@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import Flexbox from "./Flexbox";
 import Ref from "./Ref";
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
     
     return (
     <>
-    <div className="font-semibold bg-gray-300 text-lg">hello css</div>
+    {/*<div className="font-semibold bg-gray-300 text-lg">hello css</div>
     <div className="text-center">
 <Ref link="https://www.facebook.com/" title={title1}/>
 
@@ -19,7 +20,9 @@ const Home = () => {
     <div className="text-center text-xs text-black">hello welcome to js course</div>
     <span className="my-3 p-1 bg-blue-500 text-xs text-white font-semibold rounded-sm text-center"> Stop Sharing</span>
 </div>
-    </div>
+    </div>*/}
+    <div>welcome </div>
+    <Flexbox/>
     </>
     );
 }
